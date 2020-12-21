@@ -1,13 +1,40 @@
 # Our React App: The Good Samaritan Hub
 
+The Good Samaritan Hub is a web app built using MongoDB, Express, React, Node.js (MERN) that enables volunteers and voluntees to find each other. People are able to sign up, make posts (requests/offers), and chat with other members Made as part of group project along with Jeremy Hsu, Ashley Lu, and Irina Li.
+
 ## Link to App
 https://hidden-fjord-63319.herokuapp.com/
 
-## Instructions to Run (If needed)
-Clone the github repository by running the following:  
-`git clone https://github.com/csc309-summer-2020/team16.git`
 
-Then navigate to `/csc309-summer-2020/team16/` and run the following:   
+## Screenshots
+
+#### Homepage
+![](./sample_images/HomePage.png)
+
+#### Logged In Homepage
+![](./sample_images/HomePageLoggedin.png)
+
+#### Profile
+![](./sample_images/Messaging.png)
+
+#### Messaging
+![](./sample_images/Profile.png)
+
+####
+
+## Instructions to Run (If needed)
+
+Start a local Mongo database:
+
+```
+mkdir mongo-data
+mongod --dbpath mongo-data
+```
+
+Clone the github repository by running the following:  
+`git clone https://github.com/hrithikshukla/Good-Samaritan-Hub.git`
+
+Then navigate to `/Good-Samaritan-Hub/` and run the following:   
 `cd client && npm install && npm run build && cd ../server && npm install && npm start`
 
 Now open up your browser and go to `localhost:5000`
