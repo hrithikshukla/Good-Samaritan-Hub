@@ -1,0 +1,225 @@
+[{
+  "_id": {
+    "$oid": "5f3b59a36cd846231489f0ea"
+  },
+  "bio": "",
+  "isReported": true,
+  "isBanned": false,
+  "banReason": "",
+  "postsHiddenFromUser": [],
+  "firstName": "John",
+  "lastName": "Smith",
+  "location": "M5S",
+  "email": "",
+  "username": "user",
+  "password": "$2a$10$vMRlvCSjyjinY.gKEYNFuOVpM4RvovKGISFL3OCHvsnVH2l2QeUd2",
+  "conversations": [
+    {
+      "_id": {
+        "$oid": "67e9b08c6f0ddc781431c3a0"
+      },
+      "username": "user5",
+      "lastMessageTime": {
+        "$date": "2020-12-20T21:04:21.589Z"
+      },
+      "post": {
+        "$oid": "67e9afec6f0ddc781431c39c"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "67e9b12c6f0ddc781431c3a7"
+      },
+      "username": "user4",
+      "lastMessageTime": {
+        "$date": "2020-12-20T23:47:51.706Z"
+      },
+      "post": null
+    },
+    {
+      "_id": {
+        "$oid": "67e9b1466f0ddc781431c3aa"
+      },
+      "username": "user3",
+      "lastMessageTime": {
+        "$date": "2020-12-20T21:02:07.582Z"
+      },
+      "post": null
+    },
+    {
+      "_id": {
+        "$oid": "67e9d7f7263f4f67f8466f38"
+      },
+      "username": "user2",
+      "lastMessageTime": {
+        "$date": "2020-12-20T23:47:03.189Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "67e9d896263f4f67f8466f3d"
+      },
+      "username": "nevergonnagiveyouup",
+      "lastMessageTime": {
+        "$date": "2020-12-20T23:49:57.736Z"
+      },
+      "post": null
+    }
+  ],
+  "__v": 8
+},
+{
+  "_id": {
+    "$oid": "67e9aeec6f0ddc781431c397"
+  },
+  "bio": "",
+  "isReported": true,
+  "isBanned": false,
+  "banReason": "",
+  "postsHiddenFromUser": [],
+  "firstName": "Brad",
+  "lastName": "Pitt",
+  "location": "M5S",
+  "email": "brad@gmail.com",
+  "username": "user2",
+  "password": "$2a$10$sR68XbLJ07X/5nb5tQFGvOd/bJGMCi87vLlbL4wbdhqwZO0.ZP0nO",
+  "conversations": [
+    {
+      "_id": {
+        "$oid": "67e9d7f7263f4f67f8466f39"
+      },
+      "username": "user",
+      "lastMessageTime": {
+        "$date": "2020-12-20T23:47:03.189Z"
+      }
+    }
+  ],
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "67e9af316f0ddc781431c398"
+  },
+  "bio": "",
+  "isReported": false,
+  "isBanned": false,
+  "banReason": "",
+  "postsHiddenFromUser": [],
+  "firstName": "Angelina",
+  "lastName": "Jolie",
+  "location": "M5S",
+  "email": "a@gmail.com",
+  "username": "user3",
+  "password": "$2a$10$3XR3aZKQG/qRUnyJwEqUnOmYnBFJMKiNjrS8nLzpi1tO64XH2qbea",
+  "conversations": [
+    {
+      "_id": {
+        "$oid": "67e9b1466f0ddc781431c3ab"
+      },
+      "username": "user",
+      "lastMessageTime": {
+        "$date": "2020-12-20T21:02:07.582Z"
+      },
+      "post": null
+    },
+    {
+      "_id": {
+        "$oid": "67e9d81d263f4f67f8466f3b"
+      },
+      "username": "user4",
+      "lastMessageTime": {
+        "$date": "2020-12-20T23:47:41.476Z"
+      }
+    }
+  ],
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "67e9af526f0ddc781431c399"
+  },
+  "bio": "",
+  "isReported": false,
+  "isBanned": false,
+  "banReason": "",
+  "postsHiddenFromUser": [],
+  "firstName": "Anne",
+  "lastName": "Hathaway",
+  "location": "M5S",
+  "email": "anne@yahoo.com",
+  "username": "user4",
+  "password": "$2a$10$GToKA3XuF998Z/AX5TQpVecuOnEWTUaRbgUNgTQcEg5bTXY8/u3.K",
+  "conversations": [
+    {
+      "_id": {
+        "$oid": "67e9b12c6f0ddc781431c3a8"
+      },
+      "username": "user",
+      "lastMessageTime": {
+        "$date": "2020-12-20T23:47:51.706Z"
+      },
+      "post": null
+    }
+  ],
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "67e9af6c6f0ddc781431c39a"
+  },
+  "bio": "Big fan of movies and boxes of chocolates",
+  "isReported": false,
+  "isBanned": false,
+  "banReason": "",
+  "postsHiddenFromUser": [],
+  "firstName": "Tom",
+  "lastName": "Hanks",
+  "location": "M5S",
+  "email": "tom@hotmail.com",
+  "username": "user5",
+  "password": "$2a$10$gwksOmYzoVcouQLJbtJ4aOuln60txJ2uxbr6.oFe8D5ahXgDAoexi",
+  "conversations": [
+    {
+      "_id": {
+        "$oid": "67e9b08c6f0ddc781431c39f"
+      },
+      "username": "user",
+      "lastMessageTime": {
+        "$date": "2020-12-20T21:04:21.589Z"
+      },
+      "post": {
+        "$oid": "67e9afec6f0ddc781431c39c"
+      }
+    }
+  ],
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "67e9af956f0ddc781431c39b"
+  },
+  "bio": "",
+  "isReported": false,
+  "isBanned": false,
+  "banReason": "",
+  "postsHiddenFromUser": [],
+  "firstName": "Rick",
+  "lastName": "Astley",
+  "location": "M5S",
+  "email": "rick@giveup.com",
+  "username": "nevergonnagiveyouup",
+  "password": "$2a$10$G0JJWcag85DdB7QUW3ebe.MVo9xY349unFYaNRkj2UsIh94hI5NPy",
+  "conversations": [
+    {
+      "_id": {
+        "$oid": "67e9d896263f4f67f8466f3e"
+      },
+      "username": "user",
+      "lastMessageTime": {
+        "$date": "2020-12-20T23:49:57.736Z"
+      },
+      "post": null
+    }
+  ],
+  "__v": 1
+}]

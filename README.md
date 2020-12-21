@@ -1,10 +1,9 @@
 # Our React App: The Good Samaritan Hub
 
-The Good Samaritan Hub is a web app built using MongoDB, Express, React, Node.js (MERN) that enables volunteers and voluntees to find each other. People are able to sign up, make posts (requests/offers), and chat with other members Made as part of group project along with Jeremy Hsu, Ashley Lu, and Irina Li.
+The Good Samaritan Hub is a web app built using MongoDB, Express, React, Node.js (MERN) that enables volunteers and voluntees to find each other. People are able to sign up, make posts (requests for help/offers to help), and chat with other members. Made as part of group project along with Jeremy Hsu, Ashley Lu, and Irina Li.
 
 ## Link to App
 https://hidden-fjord-63319.herokuapp.com/
-
 
 ## Screenshots
 
@@ -12,7 +11,7 @@ https://hidden-fjord-63319.herokuapp.com/
 ![](./sample_images/HomePage.png)
 
 #### Logged In Homepage
-![](./sample_images/HomePageLoggedin.png)
+![](./sample_images/HomePageLoggedIn.png)
 
 #### Profile
 ![](./sample_images/Messaging.png)
@@ -39,9 +38,20 @@ Then navigate to `/Good-Samaritan-Hub/` and run the following:
 
 Now open up your browser and go to `localhost:5000`
 
+To load sample data in to MongoDB:
+```
+mongoimport  --drop --jsonArray --maintainInsertionOrder --uri="mongodb://localhost:27017"  --db="GoodSamaritanHub" --collection="admins" --file=".\sample_data\GoodSamaritanHub.admins.json"
+mongoimport  --drop --jsonArray --maintainInsertionOrder --uri="mongodb://localhost:27017"  --db="GoodSamaritanHub" --collection="locations" --file=".\sample_data\GoodSamaritanHub.locations.json"
+mongoimport  --drop --jsonArray --maintainInsertionOrder --uri="mongodb://localhost:27017"  --db="GoodSamaritanHub" --collection="messages" --file=".\sample_data\GoodSamaritanHub.messages.json"
+mongoimport  --drop --jsonArray --maintainInsertionOrder --uri="mongodb://localhost:27017"  --db="GoodSamaritanHub" --collection="posts" --file=".\sample_data\GoodSamaritanHub.posts.json"
+mongoimport  --drop --jsonArray --maintainInsertionOrder --uri="mongodb://localhost:27017"  --db="GoodSamaritanHub" --collection="users" --file=".\sample_data\GoodSamaritanHub.users.json"
+```
+All username passwords are `password` for the sample data
+
+
 ## Instructions to Use
 ### User
-#### Login Credentials:
+#### Login Credentials (on Heroku)
 username: `user`  
 password: `user`
 
